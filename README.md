@@ -39,51 +39,47 @@ Before you begin, ensure you have the following installed:
 1. Clone this repository:
 
    ```sh
-   git clone https://github.com/your-username/url-shortener.git
+   git clone https://github.com/your-username/url-shortener.git```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
- ```sh
+   ```sh
    cd url-shortener
-```
 
-3. Install dependencies:
+5. Install dependencies:
+
 
    ```sh
    go mod tidy
 
-4. Build the application:
+7. Build the application:
 
- ```sh
+   ```sh
    go build
-```
 
 ## Usage
 
 1. Start the Redis server.
 
 2. Run the URL Shortener application:
-   ```sh
-   ./url-shortener
-   ```
+
+  ```sh
+      ./url-shortener
+  ```
 
 3. The application will start on http://localhost:3000.
 
 4. Use your preferred API client (such as curl or Postman) to interact with the URL Shortener API. Refer to the API documentation for available endpoints and usage.
    
-##Configuration
+## Configuration
 The application's configuration can be modified by editing the config.json file. You can specify the Redis server details, application port, and other settings in this file.
 
-#Contributing
+# Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
 1. Fork the repository.
-
 2. Create a new branch: git checkout -b feature/your-feature-name.
-
 3. Make your changes and commit them: git commit -m 'Add some feature'.
-
 4. Push to the branch: git push origin feature/your-feature-name.
-
 5. Create a pull request.
 
 
