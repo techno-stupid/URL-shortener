@@ -39,7 +39,7 @@ Before you begin, ensure you have the following installed:
 1. Clone this repository:
 
    ```sh
-   git clone https://github.com/your-username/url-shortener.git```
+   git clone git@github.com:techno-stupid/URL-shortener.git```
 
 3. Navigate to the project directory:
 
