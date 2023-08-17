@@ -41,18 +41,18 @@ Before you begin, ensure you have the following installed:
    ```sh
    git clone git@github.com:techno-stupid/URL-shortener.git```
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 
    ```sh
    cd url-shortener
 
-5. Install dependencies:
+3. Install dependencies:
 
 
    ```sh
    go mod tidy
 
-7. Build the application:
+4. Build the application:
 
    ```sh
    go build
